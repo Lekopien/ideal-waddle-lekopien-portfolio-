@@ -56,6 +56,14 @@ pickle-email-*.html
 !/backend/tmp/.keep
 !/backend/public/system/.keep
 
+# Sinatra backend specific
+/backend/db/*.sqlite3
+/backend/db/*.sqlite3-journal
+/backend/server.log
+/backend/server.pid
+/backend/.bundle/
+/backend/vendor/bundle/
+
 # Environment variables
 .env
 .env.local
