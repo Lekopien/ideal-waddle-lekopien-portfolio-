@@ -1,0 +1,32 @@
+/* Lekopien brand colours — dark only. See BRAND.md for where each goes. */
+:root {
+  /* Backgrounds */
+  --lk-bg: #0d1515;          /* page, hero, full-width sections */
+  --lk-card: #151d1e;        /* nav bar, cards, modals */
+  --lk-card-raised: #192122; /* card hover, active tab, open menus */
+  --lk-deep: #080f10;        /* inputs, code blocks, stats strip */
+  --lk-footer: #0b0f10;      /* footer only */
+
+  /* Accents */
+  --lk-cyan: #00f0ff;        /* primary buttons, links, active nav */
+  --lk-cyan-light: #dbfcff;  /* button and link hover */
+  --lk-on-cyan: #0d1515;     /* text on cyan — never light text */
+  --lk-purple: #ddb7ff;      /* eyebrows, tags, badges — never buttons or links */
+  --lk-border: rgba(0, 240, 255, 0.15);
+  --lk-border-hover: rgba(0, 240, 255, 0.4);
+  --lk-glow: 0 0 24px rgba(0, 240, 255, 0.35); /* primary button only */
+
+  /* Text */
+  --lk-text: #dce4e5;
+  --lk-text-muted: #b9cacb;
+
+  /* Status */
+  --lk-success: #10b981;
+  --lk-error: #ffb4ab;
+
+  /* Shape and type */
+  --lk-radius: 4px;
+  --lk-font-sans: 'Inter', system-ui, sans-serif;
+  --lk-font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --lk-font-logo: 'Space Grotesk', 'Inter', sans-serif;
+}
